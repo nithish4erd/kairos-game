@@ -1,4 +1,4 @@
-const CACHE = 'kairos-elderglen-v1';
+const CACHE = 'kairos-v7-galactic-quotes100';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));

@@ -1,26 +1,23 @@
-# KAIROS V — The Elderglen Saga (Android-installable PWA)
+KAIROS VII: GALACTIC PATH — ANDROID PWA
 
-## What this package contains
-- `index.html`: the playable game
-- `manifest.webmanifest`: install metadata
-- `sw.js`: offline cache/service worker
-- icons: SVG and PNG app icons
+This package is an installable Progressive Web App (PWA), not a compiled APK.
 
-## Install on Android
-A PWA must be served from HTTPS (or localhost); opening `index.html` directly from Files will not show Install App.
+Included:
+- index.html: Star Wars-inspired galaxy-themed habit tracker RPG
+- manifest.webmanifest: Android install metadata
+- sw.js: offline caching after the first successful load
+- icon.svg, icon-192.png, icon-512.png: app icons
 
-### Quick publish using GitHub Pages
-1. Create a GitHub repository and upload **all files in this folder** to the repository root.
-2. In the repository, open **Settings → Pages**.
-3. Select deploy from the `main` branch and `/ (root)`, then Save.
-4. Open the published HTTPS URL in Chrome on Android.
-5. Tap Chrome's ⋮ menu → **Install app** (or **Add to Home screen**) → Install.
-6. Launch KAIROS from the new home-screen icon. Open it online once before using offline so the service worker can cache it.
+Publish/update using GitHub Pages:
+1. Extract this ZIP.
+2. In your GitHub repository, upload/replace the files at the repository root.
+3. Commit changes and wait for GitHub Pages to deploy.
+4. Open your GitHub Pages URL in Chrome on Android.
+5. Use Chrome menu > Install app or Add to Home screen.
 
-## Progress / privacy
-Game progress is stored locally in the browser's localStorage. It does not automatically sync between devices. Use Export Save inside the game for backups. Clearing browser/site data can erase local progress.
+Progress is stored in browser local storage on that device. Use the in-game Export Save option to back up your progress. Focus timer and tracker logs are stored locally. First online load is required to cache the app for offline use.
 
-## Important limitations
-- This is an installable web app, not a signed native Android APK.
-- Browser notifications, alarms, and background reminders are not included.
-- The app shell is cached for offline launch after the first successful online visit; browser storage policies can still clear cached data.
+KAIROS is a fan-inspired personal habit tracker. Kael Veyra is an original fictional protagonist; Star Wars characters are included as fan crossover mentor/companion references. This is an unofficial fan project and is not affiliated with or endorsed by Lucasfilm or Disney.
+
+
+V7 update: includes 100 original galaxy-inspired daily reflections. One reflection is selected automatically based on the device calendar day. These are fan-made lines, not official Star Wars dialogue.

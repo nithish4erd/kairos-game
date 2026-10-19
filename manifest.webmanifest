@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "KAIROS V: The Elderglen Saga",
+  "name": "KAIROS VII: Galactic Path",
   "short_name": "KAIROS",
-  "description": "A living Kaizen fantasy RPG: daily quests, XP, weapons, relics and weekend boss battles.",
+  "description": "A Star Wars-inspired Kaizen habit RPG with daily quests, focus tools, wellness tracking and companion missions.",
   "lang": "en-IN",
   "start_url": "./index.html",
   "scope": "./",
